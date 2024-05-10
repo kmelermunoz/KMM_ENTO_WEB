@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import Test from './Test/test.js';
-import Presentacio from './Presentacio/presentacio.js';
+import Test from '../Test/test.js';
+import Presentacio from '../Presentacio/presentacio.js';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
       </header>
     </div>

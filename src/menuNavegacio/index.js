@@ -1,6 +1,6 @@
 // MenuNavegacio.js
-import React from 'react';
-import './menu.css'; 
+import React from "react";
+import "./menu.css";
 
 function MenuNavegacio() {
   return (
@@ -10,7 +10,10 @@ function MenuNavegacio() {
           <a href="/">Inici</a>
         </li>
         <li>
-          <a href="/about">Sobre nosaltres</a>
+          <a href="/curriculum">Currículum</a>
+        </li>
+        <li>
+          <a href="/hobbies">Hobbies</a>
         </li>
       </ul>
     </nav>

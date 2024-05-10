@@ -1,27 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
-import MenuNavegacio from './menu/MenuNavegacio.js'; 
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App/App.js";
+import Curriculum from "./curriculum";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import MenuNavegacio from "./menuNavegacio";
+import Hobbies from "./hobbies";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <App />,
   },
   {
-    path: "about",
-    element: <div>About</div>,
+    path: "curriculum",
+    element: <Curriculum />,
+  },
+  {
+    path: "hobbies",
+    element: <Hobbies />,
   },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <MenuNavegacio />

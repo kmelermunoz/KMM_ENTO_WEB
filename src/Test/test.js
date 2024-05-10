@@ -1,11 +1,11 @@
-import './Test.css'; 
+import "./Test.css";
 
-function Test () {
-    return(
+function Test() {
+  return (
     <div className="Test">
-        <h1>Sóc un test</h1>
+      <h1>Kevin Meler Muñoz</h1>
     </div>
-    );
+  );
 }
 
 export default Test;
