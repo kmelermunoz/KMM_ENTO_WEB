@@ -1,5 +1,5 @@
 import React from "react";
-import "./curriculum.css";
+import "./curriculum.scss";
 import CVImage from "./image CV.png";
 import CVFile from "./CV.pdf";
 
@@ -13,8 +13,8 @@ function Curriculum() {
         busco sempre crear experiències úniques i envolvent. La meva experiència
         en el desenvolupament de videojocs m'ha dotat de les habilitats
         tècniques i creatives necessàries per dur a terme projectes innovadors i
-        emocionants.Si esteu interessats en el meu perfil, podeu descarregar el
-        meu currículum..
+        emocionants. Si esteu interessats en el meu perfil, podeu descarregar el
+        meu currículum.
       </p>
       <img src={CVImage} alt="Curriculum" className="cv-image" />
       <div className="download-container">

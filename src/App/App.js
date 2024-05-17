@@ -1,20 +1,19 @@
-import './App.css';
-import Test from '../Test/test.js';
-import Presentacio from '../Presentacio/presentacio.js';
+import "./App.scss";
+import Test from "../Test/test.js";
+import Presentacio from "../Presentacio/presentacio.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Test/>
-        <Presentacio/>
+        <Test />
+        <Presentacio />
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-        </a>
+        ></a>
       </header>
     </div>
   );
