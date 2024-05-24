@@ -5,11 +5,11 @@ function MenuNavegacio() {
   const [isMobile, setIsMobile] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
-    };
+  const handleResize = () => {
+    setIsMobile(window.innerWidth <= 768);
+  };
 
+  useEffect(() => {
     handleResize();
 
     window.addEventListener("resize", handleResize);
@@ -26,7 +26,7 @@ function MenuNavegacio() {
         <ul className="nav-menu">
           <li className="nav-item">
             <a href="/" className="nav-link">
-              Inicio
+              Inici
             </a>
           </li>
           <li className="nav-item">
